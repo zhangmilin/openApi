@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://rm-8vb3m657amqcf2ehwto.mysql.zhangbei.rds.aliyuncs.com:3306/db_ecp_hub?useSSL=false&characterEncoding=UTF8&serverTimezone=UTC&nullCatalogMeansCurrent=true
+    password: db_ecp
+    username: db_ecp
+
+swagger:
+  enable: true

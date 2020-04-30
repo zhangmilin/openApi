@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+logging:
+  level:
+    root: info #日志配置DEBUG,INFO,WARN,ERROR
+    com.zhang.openApi.mapper: debug
+  file: log/catalian.log #配置日志生成路径
+
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+
+jwt:
+  Header: Authorization #JWT存储的请求头
+  secret: energy123 #JWT加解密使用的密钥
+  expiration: 7200 #JWT的超期限时间(60*60*2)
+  tokenHead: Bearer  #JWT负载中拿到开头
+
+spring:
+  profiles:
+    active: dev

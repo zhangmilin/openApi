@@ -1,0 +1,14 @@
+##package ${package_name}.rpc.api;
+package ${package_name}.service;
+
+import ${package_name}.model.${model};
+import ${package_name}.model.${model}Example;
+
+/**
+* ${model}Service接口
+* @author: zhangfeng
+* @Date: ${ctime}
+*/
+public interface ${model}Service {
+
+}
